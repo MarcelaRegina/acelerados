@@ -10,11 +10,15 @@ html {
 
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-montserrat: Arial, sans-serif;
+    
 }
 
+
+
 .top-menu {
-    @apply bg-gray-900 text-white p-6 text-center;
+    @apply bg-gray-900 text-white p-7 text-center
+    ;
 }
 
 .background-image {
@@ -25,7 +29,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 160px;
+  width: 150px;
   height: 100%;
   background-color: #ffffff; 
   color: #0F2851; 
@@ -59,7 +63,7 @@ html {
 }
 
 .simule-button {
-    @apply bg-yellow-400 text-gray-900 px-8 py-4 text-xl no-underline rounded-xl font-bold;
+    @apply bg-yellow-300 text-gray-900 px-10 py-5 text-xl no-underline rounded-xl font-bold ;
     
 }
 
